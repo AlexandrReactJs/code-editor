@@ -1,0 +1,45 @@
+.result {
+    background-color: rgb(44, 44, 44);
+    height: 40vh;
+    margin-top: 6px;
+    border-radius: 6px;
+
+}
+
+.header{
+    border-bottom: 1px solid #000000;
+    padding: 5px 10px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.title p{
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.success{
+    padding: 10px;
+    background-color: rgba(85, 189, 81, 0.274);
+
+}
+
+.success p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.error{
+    padding: 10px;
+    background-color: rgba(189, 81, 81, 0.274);
+}
+
+.error p{
+    color: #fff;
+    font-weight: 600;
+}

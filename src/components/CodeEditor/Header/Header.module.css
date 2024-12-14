@@ -1,0 +1,100 @@
+.header {
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: row;
+    padding: 5px 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    align-items: center;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title p {
+    margin-left: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.selectLanguage {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+
+.selectLanguage p {
+    margin-right: 3px;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.selectLanguage p::first-letter {
+    text-transform: uppercase;
+}
+
+.selectLanguage:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.languagesList {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    border-radius: 6px;
+    position: absolute;
+    top: 4%;
+    left: 9%;
+    background-color: rgb(44, 44, 44);
+    z-index: 99;
+}
+
+
+.language {
+    color: #fff;
+    margin-right: 25px;
+    font-weight: 600;
+    transition: all 0.2s linear;
+}
+
+.language:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.language:last-child {
+    margin-right: 0;
+}
+
+.language::first-letter {
+    text-transform: uppercase;
+}
+
+
+
+.runCodeBtn {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+
+.runCodeBtn p {
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.runCodeBtn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
